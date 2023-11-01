@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;1,300;1,400;1,500;1,600&family=Poppins:wght@500&display=swap");
+
+.card{
+  margin: 15px 18px;
+  padding: 0;
+  
+  display: flex;
+  flex-direction: column;
+  /* // border: 1px solid #e5e5e5; */
+  border-radius: 0.5rem;
+  transition: background-color 0.8s;
+}
+
+.lightcard{
+  background-color: white;
+  border: 1px solid #e5e5e5;
+}
+
+.darkcard{
+  background-color: black;
+  /* border: 1px solid black; */
+}
+
+.top {
+  flex: 5;
+  overflow: hidden;
+  border-radius: 0.5rem 0.5rem 0 0;
+  cursor: pointer;
+  background-color: black;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: black;
+}
+.card:hover {
+  transition: 0.4ms;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.bottom {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 10px;
+  /* background-color: black; */
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.user-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  transition: color 0.8s;
+}
+
+.lightuser-name{
+  color: #4f4f4f;
+}
+
+.darkuser-name{
+  color: #ffffff;
+}
+
+.user-username {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  color: #a7a7a7;
+  font-weight: 300;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.like-symbol{
+  
+  transition: color 0.8s;
+}
+
+.lightlike-symbol{
+  color: #4f4f4f;
+}
+
+.darklike-symbol{
+  color: white;
+}
+
+.like-count {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  transition: color 0.8s;
+}
+
+.lightlike-count{
+  color: #4f4f4f;
+}
+
+.darklike-count{
+  color: white;
+}

@@ -1,0 +1,10 @@
+.navSuggestMainDiv{
+    border: 1px solid gray;
+    height: fit-content;
+    width: 380px;
+    margin-top: 97px;
+    margin-left: 421px;
+    z-index: 10;
+    border-radius: 5px;
+    background-color: #f3f2f2;
+}

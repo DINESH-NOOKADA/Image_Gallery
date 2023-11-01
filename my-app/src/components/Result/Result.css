@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;0,700;1,300;1,400;1,500;1,600&family=Poppins:wght@500&display=swap');
+
+.resultMaindiv{
+    padding-top: 130px;
+    padding-left: 170px;
+    padding-right: 170px;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.8s
+}
+
+
+.lightresultMaindiv{
+    background-color: #ffffff;
+    
+}
+
+.darkresultMaindiv{
+    background-color: #232323;
+}
+
+.resultNamediv{
+    font-weight: 700;
+    font-size: 36px;
+    
+    line-height: 43.88px;
+    cursor: pointer;
+    transition: color 0.8s;
+}
+
+.lightresultNamediv{
+    color: #4f4f4f;
+}
+.darkresultNamediv{
+    color: #ffffff;
+}
+
+.resultSuggestdiv{
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    padding-top: 30px;
+    overflow-x: scroll;
+    padding-bottom: 8px;
+    cursor: pointer;
+    
+}
+
+.resultTags{
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 10px 25px 10px 25px;
+    transition: color 0.8s;
+    /* overflow: hidden; */
+    white-space: nowrap;
+}
+
+
+
+.lightresultTags{
+    border: 1px solid #969696;
+    color: #888888;
+}
+.lightresultTags:hover{
+    border: 1px solid #272727;
+    color: #515151;
+}
+
+.darkresultTags{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.darkresultTags:hover{
+    border: 1px solid #818080;
+    color: #717171;
+}
